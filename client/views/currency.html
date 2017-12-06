@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+  <head>
+    <title>Currencies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/new-age.min.css" rel="stylesheet">
+     <!-- Pure Table CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+
+  </head>
+  
+  <body>
+    <div class="row">
+    	<table class="pure-table pure-table-striped pure-table-bordered">
+    		<tr>
+    			<td>#</td>
+    			<td>Symbol</td>
+    			<td>Name</td>
+    			<td>Market Cap</td>
+    			<td>Price</td>
+    			<td>1Hr %</td>
+    			<td>24Hr %</td>
+    			<td>7d %</td>
+    		</tr>
+    		<tr>
+    			<td>1</td>
+    			<td>BTC</td>
+    			<td>Bitcoin</td>
+    			<td>$148,470,485,439</td>
+    			<td>$8889.53</td>
+    			<td style="text-color:green;">0.27%</td>
+    			<td style="text-color:green;">7.84%</td>
+    			<td style="text-color:green;">14.20%</td>
+    		</tr>
+    	</table>
+    	
+    </div>	
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/new-age.min.js"></script>
+
+
+  </body>
+</html>
+  	
+<script>  	
+var request = require("request");
+
+router.get('/external-api', function(req, res){;
+
+  request("http://www.google.com", function(error, response, body){
+    console.log('error:', error); // Print the error if one occurred and handle it
+    console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+    res.send(body)
+  });
+})
+
+</script>
