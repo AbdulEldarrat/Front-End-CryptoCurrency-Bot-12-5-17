@@ -1,25 +1,25 @@
+# CryptoBot
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## Members:
+- Abdul Elderrat-Front End, Axosoft
+- Braden Rucinski- Back End, Python Scrape + MongoDB 
+- Mason Flint- Web Service
+- Sonu Chavakula- Front End
+- Taylor McNeal- Python Google Trends
 
+## What is CryptoBot?
+CryptoBot is the name of an initiative to provide a user-friendly and secure interface for users to utilize automated trading algorithms for various cryptocurrencies.  Our current data-flow utilizes several python programs to populate databases with trading information.  The DataRelayService is a layer of abstraction between our user-interfaces and our databases.  Its purpose is to simplify transfer of data between multiple user-interfaces by keeping our queries in one location.  This allows us to only make changes to the DataRelayService should our underlying database architecture change at any point instead of modifying each individual user-interface.  Our DataRelayService then provides information to our user-interfaces, so that our users can see pertinent information for our trading algorithms.
 
-Welcome to your Node.js project on Cloud9 IDE!
+## How did we use Agile?
+Our team used Scrum, through Axosoft, and after nearly every class, to do our "daily" Scrum standup. You can see our Axosoft for more information on how we handled tasking.
 
-This chat example showcases how to use `socket.io` with a static `express` server.
-
-## Running the server
-
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
-
-2) Alternatively you can launch the app from the Terminal:
-
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9users.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
-
-PM2
-http://pm2.keymetrics.io/docs/usage/cluster-mode/
+## ScrapeyServer: 
+- ec2-54-82-229-89.compute-1.amazonaws.com
+## FrontEndService: 
+- Public address: http://ec2-54-164-254-145.compute-1.amazonaws.com
+- Repo: https://github.com/AbdulEldarrat/Front-End-CryptoCurrency-Bot-12-5-17-
+## DataRelayService: 
+- Public address: http://ec2-54-164-254-145.compute-1.amazonaws.com/DataRelayService/
+- Repo: https://github.com/hackerbuddy/CryptoBot/tree/DataRelayService
+## MySql Server: 
+- cryptodb.czf1h9vdv76q.us-east-1.rds.amazonaws.com 
