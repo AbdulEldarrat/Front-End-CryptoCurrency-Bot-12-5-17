@@ -18,6 +18,8 @@ Our team used Scrum, through Axosoft, and after nearly every class, to do our "d
 ## FrontEndService: 
 - Public address: http://ec2-54-164-254-145.compute-1.amazonaws.com
 - Repo: https://github.com/AbdulEldarrat/Front-End-CryptoCurrency-Bot-12-5-17-
+## BackEndService:
+- Repo: https://github.com/hackerbuddy/CryptoBot
 ## DataRelayService: 
 - Public address: http://ec2-54-164-254-145.compute-1.amazonaws.com/DataRelayService/
 - Repo: https://github.com/hackerbuddy/CryptoBot/tree/DataRelayService
